@@ -7,12 +7,15 @@ using System.Threading.Tasks;
 
 namespace EF_Model.Models
 {
-    public class Book
+    public class Publisher
     {
-        //[Key]
-        public int BookId { get; set; }
-        public string Title { get; set; }
-        public string ISBN { get; set; }
-        public decimal Price { get; set; }
+        [Key]
+        public int Publisher_Id { get; set; }
+
+        [Required]
+        public string Name { get; set; }
+
+        public string Location { get; set; }
+
     }
 }

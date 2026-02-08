@@ -1,5 +1,6 @@
 using EF_Model.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
 namespace EF_Project.Controllers

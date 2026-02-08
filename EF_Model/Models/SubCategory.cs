@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace EF_Model.Models
 {
-    public class Book
+    public class SubCategory
     {
-        //[Key]
-        public int BookId { get; set; }
-        public string Title { get; set; }
-        public string ISBN { get; set; }
-        public decimal Price { get; set; }
+        [Key]
+        public int SubCategory_Id { get; set; }
+
+        [Required]
+        [MaxLength(50)]
+        public string Name { get; set; }
     }
 }
