@@ -1,4 +1,4 @@
-using EF_Project.Models;
+using EF_Model.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
